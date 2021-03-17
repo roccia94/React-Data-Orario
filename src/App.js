@@ -2,11 +2,6 @@ import React from "react";
 import "./style.css";
 import Clock from  "./Clock.js"
 
-const happy = "happy";
-function getOra (ora) {
-  return ora.toLocaleTimeString()
-}
-
 export default function App() {
   return (
     <React.Fragment>
